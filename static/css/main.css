@@ -64,20 +64,8 @@
     font-family: "Montserrat", Arial;
 }
 
-#about-content {
-    
-}
-
-.demo-img {
-    height: 100px;
-    width: auto;
-    margin: 20px auto;
-    border: 1px solid black;
-    box-shadow: 2px 2px 2px slategray;
-}
-
-#how-to {
-    font-size: 1.4rem;
+.resident-about {
+    margin: 50px 0px;
 }
 
 em {
@@ -97,7 +85,6 @@ em {
     max-height: 400px;
     width: 45%;
     margin: 50px 0px;
-    border: 1px dotted gray;
     vertical-align: top;
     padding: 50px 0px;
     font-size: .9em;
@@ -105,7 +92,7 @@ em {
 
 #separator {
     display: inline-block;
-    height: 300px;
+    height: 350px;
     width: 1px;
     border: 1px solid black;
     margin: 100px 0px;
@@ -140,13 +127,17 @@ em {
 
 #donate-button {
     display: inline-block;
-    width: 60px;
+    width: 100px;
     border-radius: 5px;
     border: 2px solid black;
     text-decoration: none;
     color: black;
     text-align: center;
     padding: .5rem;
+}
+
+#smile-instructions {
+    padding-top: 25px;
 }
 
 #smile ul {
