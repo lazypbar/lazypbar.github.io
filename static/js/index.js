@@ -50,8 +50,4 @@ $('document').ready(() => {
         $('#donate-button').attr('href', 'https://www.paypal.com/paypalme/jdunbrack/' + $('input:radio:checked').val());
     })
     
-    $('#donate-custom').change(() => {
-        $('#donate-button').html('Donate $' + $('#donate-custom-amount').val());
-    })
-    
 })
