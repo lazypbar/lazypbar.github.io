@@ -65,11 +65,11 @@ body {
     width: 30%;
     margin: 0px 10px;
     vertical-align: top;
+    margin-bottom: 57px;
 }
 
 .resident-img {
     max-width: 100%;
-    margin-bottom: 57px;
 }
 
 #shadow-img {
